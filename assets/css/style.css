@@ -1,0 +1,254 @@
+body {
+    background-image: url("../images/eight_horns.png");
+}
+
+/*Fonts*/
+
+h1 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+}
+
+/*HEADER and Nav Bar*/
+
+header {
+    background-color: white;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 37px;
+    margin: 0;
+}
+
+#title {
+    color: white;
+    background-color: #722f37;
+    width: 250px;
+    float: left;
+    display: block;
+    padding: 27px 0px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.menu-item {
+    width: 15%;
+    /*float: left;*/
+    /*clear: left;*/
+    margin: 30px 15px;
+}
+
+#menu-item-push { 
+    float: right;
+    width: 500px; 
+}
+
+.border-item {
+    border: solid 1px lightgray; 
+    border-top: white;
+    border-bottom: white;
+    padding: 0 30px 0 20px;
+    margin-left: 10px;
+}
+
+/*Main Content Section*/
+
+.main-content {
+    background-color: white;
+    width: 650px;
+    height: 550px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+}
+
+#main-content-line {
+    background-color: lightgray;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.side-bar {
+    background-color: white;
+    height: 230px;
+    width: 270px;
+    margin-left: 27px;
+    margin-top: 13px;
+    float: left;
+    clear: right;
+}
+
+#side-content-line {
+    background-color: #EAEAEA;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+#icon-align a {
+    margin: 3px;
+}
+
+#icon-align {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Centers the "About Me" and "Connect with Me" titles*/
+.centered {
+    padding: 25px;
+}
+
+/*ABOUT Main Content Section*/
+
+.main-content-portfolio {
+    background-color: white;
+    width: 650px;
+    height: 800px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+}
+
+#profile-picture {
+    height: 200px;
+    width: 220px;
+    float: left;
+    margin-right: 10px;
+}
+
+.about-content {
+    float: left;
+    
+}
+
+.about-content p {
+    line-height: 2;
+}
+
+/*PORTFOLIO Main Content Section*/
+
+.portfolio-align {
+    margin: 40px;
+}
+
+.portfolio-align img {
+    position: relative;
+    padding: 0px;
+    margin: 10px;
+    height: 190px;
+    width: 240px;
+    float: left;
+}
+.portfolio-align p {
+    padding: 10px 0;
+    width: 240px;
+    text-align: center;
+    color: white;
+    background-color: #722f37;
+}
+
+
+#text-block-1 {
+    position: absolute;
+    left: 175px;
+    bottom: 250px;
+}
+#text-block-2 {
+    position: absolute;
+    left: 435px;
+    bottom: 250px;
+}
+#text-block-3 {
+    position: absolute;
+    left: 175px;
+    bottom: 40px;
+}
+#text-block-4 {
+    position: absolute;
+    left: 435px;
+    bottom: 40px;
+}
+#text-block-5 {
+    position: absolute;
+    left: 175px;
+    bottom: -170px;    
+}
+
+/*CONTACT Main Content Section*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #722f37;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #722f37;
+}
+
+
+/*FOOTER*/
+
+#stripe {
+    border: solid #722f37;
+    clear: both;
+}
+
+#copy-text {
+    position: relative;
+    top: 30%;
+    left: 45%;
+    color: white;
+    font-size: 12px;
+    text-align: center;    
+}
+
+footer {
+    position: relative;
+    background-color: #323232;
+    height: 100px;
+    clear: both;
+}
