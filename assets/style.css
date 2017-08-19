@@ -1,0 +1,406 @@
+body {
+    background: 
+    linear-gradient(
+        rgba(36, 14, 17, 0.80),
+        rgba(36, 14, 17, 0.80)
+    ),
+
+    url("images/eight_horns.png");
+}
+
+/*Fonts*/
+
+h1 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #722f37;
+    font-family: 'Georgia', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    float: left;
+}
+
+/*HEADER and Nav Bar*/
+
+header {
+    background-color: #DFDFDF;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 37px;
+    margin: 0;
+}
+
+#title {
+    color: white;
+    background-color: #722f37;
+    width: 250px;
+    float: left;
+    display: block;
+    padding: 27px 0px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.menu-item {
+    width: 15%;
+    /*float: left;*/
+    /*clear: left;*/
+    margin: 30px 15px;
+}
+
+#menu-item-push { 
+    float: right;
+    width: 500px; 
+}
+
+.border-item {
+    border: solid 1px #323232; 
+    border-top: #DFDFDF;
+    border-bottom: #DFDFDF;
+    padding: 0 30px 0 20px;
+    margin-left: 10px;
+}
+
+/*Main Content Section*/
+
+#main-content-line {
+    background-color: lightgray;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.side-bar {
+    background-color: #DFDFDF;
+    height: 230px;
+    width: 270px;
+    margin-left: 27px;
+    margin-top: 13px;
+    float: left;
+    clear: right;
+}
+
+#side-content-line {
+    background-color: lightgray;
+    height: 1.5px;
+    margin-bottom: 20px;
+}
+
+#icon-align a {
+    margin: 3px;
+}
+
+#icon-align {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Centers the "About Me" and "Connect with Me" titles*/
+.centered {
+    padding: 25px;
+}
+
+/*ABOUT Main Content Section*/
+
+.main-content {
+    background-color: #DFDFDF;
+    width: 650px;
+    height: 600px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+    padding-bottom: 30px;
+}
+
+#profile-picture {
+    height: 200px;
+    width: 220px;
+    float: left;
+    margin-right: 15px;
+}
+
+.about-content {
+    float: left;
+    
+}
+
+.about-content p {
+    line-height: 1.5;
+}
+
+/*PORTFOLIO Main Content Section*/
+.main-content-portfolio {
+    background-color: #dfdfdf;
+    width: 650px;
+    height: 800px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+}
+
+.portfolio-container {
+    height: 650px;
+    width: 600px;
+    margin: auto;
+}
+
+.portfolio-container p {
+    display: block;
+    width: 250px;
+    text-align: center;
+    background-color: #323232;
+    padding: 10px;
+    margin-top: 135px;
+    color: white;
+    font-weight: bold;    
+    opacity: .7;
+}
+
+/*Hover effects*/
+
+#cyoa-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/cyoa.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#hanged-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/hanged.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#rpg-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/rpg.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#trivia-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/trivia.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#horror-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/horror.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+#monster-pic:hover {
+    height: 180px;
+    width: 270px;
+    background:      linear-gradient(
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+    ),
+    url(images/monster.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+
+/*Hover effect END*/
+
+/*Portfolio images*/
+
+#cyoa-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/cyoa.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    float: left;
+}
+
+#hanged-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/hanged.jpg) center no-repeat;    
+    background-size: 100% 100%;
+    margin: 10px;
+    float: right;
+}
+
+#rpg-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/rpg.jpg) center no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+    float: left;
+}
+
+#trivia-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/trivia.jpg) center no-repeat;    
+    background-size: 100% 100%;    
+    margin: 10px;
+    float: right;
+}
+
+#horror-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/horror.jpg) center no-repeat;    
+    background-size: 100% 100%;    
+    margin: 10px;
+    float: left;
+}
+
+#monster-pic {
+    height: 180px;
+    width: 270px;
+    background:      
+    linear-gradient(
+        rgba(0, 0, 0, .5),
+        rgba(0, 0, 0, .5)
+    ),
+    url(images/monster.jpg) center no-repeat;    
+    background-size: 100% 100%;    
+    margin: 10px;
+    float: right;
+}
+
+/*Portfolio images END*/
+
+/*CONTACT Main Content Section*/
+
+.contact-content {
+    background-color: #DFDFDF;
+    width: 650px;
+    height: 600px;
+    margin: 13px 13px 30px 100px;
+    float: left;
+    clear: both;
+    padding-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #722f37;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer; 
+}
+
+input[type=submit]:hover {
+    background-color: #722f37;
+}
+
+
+/*FOOTER*/
+
+#copy-text {
+    position: relative;
+    top: 30%;
+    left: 45%;
+    color: white;
+    font-size: 12px;
+    margin: auto;
+    text-align: center;    
+}
+
+footer {
+    position: relative;
+    background-color: #323232;
+    height: 100px;
+    margin-top: 100px;
+    border: 6px solid #722f37;
+    border-right: #323232;
+    border-left: #323232;
+    border-bottom: #323232;
+    clear: both;
+}
