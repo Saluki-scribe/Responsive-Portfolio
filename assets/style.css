@@ -358,6 +358,10 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
+#subject {
+    padding-bottom: 200px;
+}
+
 input[type=email], select, textarea {
     width: 100%;
     padding: 8px;
@@ -931,7 +935,6 @@ footer {
         background-size: 100% 100%;
         margin: 40px auto;
     }
-
 
 /*CONTACT Page Elements 640px*/
 
