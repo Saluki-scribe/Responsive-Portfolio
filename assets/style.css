@@ -709,4 +709,12 @@ footer {
 
 /*CONTACT Page Elements 640px*/
 
+    .contact-content {
+        width: 600px;
+        height: auto;
+        margin: 20px;
+        padding-bottom: 0px;
+    }
+
+
 } /*End 640px Media Query*/
