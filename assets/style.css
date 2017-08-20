@@ -60,8 +60,6 @@ header {
 
 .menu-item {
     width: 15%;
-    /*float: left;*/
-    /*clear: left;*/
     margin: 30px 15px;
 }
 
@@ -96,11 +94,20 @@ header {
     clear: right;
 }
 
+.side-bar h3 {
+    border: 1px solid #C8C8C8;
+    padding: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+/*
 #side-content-line {
     background-color: lightgray;
     height: 1.5px;
     margin-bottom: 20px;
-}
+}*/
 
 #icon-align a {
     margin: 3px;
@@ -406,20 +413,118 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        background: 
 
+/*Consistent Page Elements 980px*/
+
+    .main-section {
+        width: 980px;
     }
+
+    footer {
+        height: 80px;
+        border-top: 10px solid #722f37;
+        padding-top: 10px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .menu-item {
+        float: left;
+        
+    }
+
+    #menu-item-push {
+        width: 400px;
+    }
+
+    .side-bar {
+        height: 175px;
+        margin-top: 32px;
+        margin-left: 10px;
+    }
+
+    .side-bar h3 {
+        padding-top: 0px;
+    }
+
+/*ABOUT Page Elements 980px*/
+
+    .main-content {
+        width: 400px;
+        height: auto;
+        margin: 30px 30px 30px 120px;
+    }
+
+    #profile-picture {
+        height: 275px;
+        width: 350px;
+        margin: 20px auto;
+    }
+
+    #title {
+        margin-left: 115px;
+    }
+
+/*PORTFOLIO Page Elements 980px*/
+
+.main-content-portfolio {
+    width: 400px;
+    height: auto;
+    padding-bottom: 50px;
+    margin: 30px 30px 30px 120px;
 }
-@media screen and (max-width: 768px) {
-    body {
-        background: 
 
+.portfolio-container {
+    width: 400px;
+    height: auto;
+    margin-right: 0px;
+    margin-left: -5px;
+}
+
+.portfolio-container p {
+    margin-top: 170px;
+    padding: 15px 0;
+    width: 340px;
+}
+
+#cyoa-pic, #hanged-pic, #rpg-pic, #trivia-pic, #horror-pic, #monster-pic  {
+    width: 85%;
+    height: 225px;
+    margin-bottom: 30px;
+    float: left;
+
+/*CONTACT Page Elements 980px*/
+}
+
+.contact-content {
+    width: 400px;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 30px 30px 30px 120px;
+}
+
+}
+/*END 980px Media Query*/
+
+
+@media screen and (max-width: 768px) {
+
+/*Consistent Page Elements 768px*/
+
+    .main-section {
+        width: 768px;
     }
+
+    #title {
+        margin-left: 20px;
+    }
+
 }
 @media screen and (max-width: 640px) {
-    body {
-        background:
-    
+    .main-section {
+        width: 640px;
     }
+
 }
