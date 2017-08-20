@@ -658,6 +658,80 @@ footer {
         float: left;
     }
 
+/*Hover Effects 768px*/
+
+    #cyoa-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/cyoa.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #hanged-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/hanged.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #rpg-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/rpg.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #trivia-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/trivia.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #horror-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/horror.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #monster-pic:hover {
+        height: 225px;
+        width: 45%;
+        background:      linear-gradient(
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0)
+        ),
+        url(images/monster.jpg) center no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
 /*CONTACT Page Elements 768px*/
 
     .contact-content {
