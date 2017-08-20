@@ -510,7 +510,7 @@ footer {
     }
 
     #title {
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     #menu-item-push {
@@ -519,8 +519,8 @@ footer {
 
     .side-bar {
         height: 175px;
-        width: 90%;
-        margin: 30px 10px 30px 20px;
+        width: 710px;
+        margin: 40px 10px 30px 25px;
     }
 
     .side-bar h3 {
@@ -539,9 +539,26 @@ footer {
         margin-top: 20px;
     }
 
-    /**/
+/*ABOUT Page Elements 768px*/
 
-}
+    .main-content {
+        width: 710px;
+        height: auto;
+        margin: 40px 10px 0 25px;
+    }
+
+    #profile-picture {
+        height: 275px;
+        width: 350px;
+        margin: 0px 25px 10px 0px;
+    }
+
+    #title {
+        margin-left: 115px;
+    }
+
+
+
 @media screen and (max-width: 640px) {
     .main-section {
         width: 640px;
