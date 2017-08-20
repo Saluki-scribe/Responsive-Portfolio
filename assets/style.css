@@ -510,7 +510,7 @@ footer {
     }
 
     #title {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     #menu-item-push {
@@ -551,10 +551,6 @@ footer {
         height: 275px;
         width: 350px;
         margin: 0px 25px 10px 0px;
-    }
-
-    #title {
-        margin-left: 115px;
     }
 
 
