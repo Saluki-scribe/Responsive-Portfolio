@@ -662,7 +662,7 @@ footer {
     .main-content h2 {
         font-size: 30px;
         padding-bottom: 30px;
-        border-bottom: 2px solid darkgray;
+        border-bottom: 3px solid darkgray;
     }
 
     #profile-picture {
@@ -672,5 +672,41 @@ footer {
         float: left;
         clear: both;
     }
+
+/*PORTFOLIO Page Elements 640px*/
+
+    .main-content-portfolio {
+        width: 600px;
+        height: auto;
+        margin: 20px;
+        padding-bottom: 0px;
+    }
+
+    .main-content-portfolio h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        border-bottom: 3px solid darkgray;
+    }
+
+    .portfolio-container {
+        width: 600px;
+        height: auto;
+        margin-left: -25px;
+    }
+
+    .portfolio-container p {
+        margin-top: 330px;
+        padding: 20px 0;
+        width: 540px;
+    }
+
+    #cyoa-pic, #hanged-pic, #rpg-pic, #trivia-pic, #horror-pic, #monster-pic  {
+        width: 540px;
+        height: 400px;
+        float: none;
+        margin: 40px auto;
+    }
+
+/*CONTACT Page Elements 640px*/
 
 } /*End 640px Media Query*/
