@@ -553,7 +553,42 @@ footer {
         margin: 0px 25px 10px 0px;
     }
 
+/*PORTFOLIO Page Elements 768px*/
+    .main-content-portfolio {
+        width: 710px;
+        height: auto;
+        padding-bottom: 20px;
+        margin: 40px 10px 0 25px;
+    }
 
+    .portfolio-container {
+        width: 710px;
+        height: auto;
+        margin-left: -10px;
+    }
+
+    .portfolio-container p {
+        margin-top: 170px;
+        padding: 15px 0;
+        width: 319.5px;
+    }
+
+    #cyoa-pic, #hanged-pic, #rpg-pic, #trivia-pic, #horror-pic, #monster-pic  {
+        width: 45%;
+        height: 225px;
+        margin-bottom: 30px;
+        float: left;
+    }
+
+/*CONTACT Page Elements 768px*/
+
+    .contact-content {
+        width: 710px;
+        height: auto;
+        padding-bottom: 10px;
+        margin: 40px 10px 0 25px;
+    }
+}    
 
 @media screen and (max-width: 640px) {
     .main-section {
