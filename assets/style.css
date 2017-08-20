@@ -405,6 +405,8 @@ footer {
     clear: both;
 }
 
+/*MEDIA QUERIES*/
+
 @media screen and (max-width: 980px) {
 
 /*Consistent Page Elements 980px*/
@@ -497,9 +499,7 @@ footer {
     margin: 30px 30px 30px 120px;
 }
 
-}
-/*END 980px Media Query*/
-
+} /*END 980px Media Query*/
 
 @media screen and (max-width: 768px) {
 
@@ -554,6 +554,7 @@ footer {
     }
 
 /*PORTFOLIO Page Elements 768px*/
+
     .main-content-portfolio {
         width: 710px;
         height: auto;
@@ -588,11 +589,88 @@ footer {
         padding-bottom: 10px;
         margin: 40px 10px 0 25px;
     }
-}    
+} /*End 768px Media Query*/    
 
 @media screen and (max-width: 640px) {
+    
+/*Consistent Page Elements 640px*/
+
     .main-section {
         width: 640px;
     }
 
-}
+    #title {
+        width: 640px;
+        margin: 0;
+        float: none;
+        font-size: 30px;
+    }
+
+    .menu-item {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 25px;
+        font-weight: bold;
+    }
+
+    #menu-item-push {
+        height: 60px;
+        width: 550px;
+        float: none;
+        text-align: center;
+        background-color: #dfdfdf;
+        padding-left: 90px;
+    }
+
+    .side-bar {
+        height: 175px;
+        width: 600px;
+        margin: 20px 20px 40px;
+    }
+
+    .side-bar h3 {
+        border-bottom: 1.5px solid darkgray;
+        padding-left: 0px;
+    }
+
+    footer {
+        width: 640px;
+        height: 80px;
+        border-top: 10px solid #722f37;
+        padding-top: 10px;
+        margin: 20px 0 0;
+    }
+
+    #copy-text {
+        left: 40%;
+    }
+
+    #icon-align {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+/*ABOUT Page Elemenmts 640px*/
+
+    .main-content {
+        width: 600px;
+        height: auto;
+        margin: 20px;
+        padding-bottom: 40px;
+    }
+
+    .main-content h2 {
+        font-size: 30px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid darkgray;
+    }
+
+    #profile-picture {
+        height: 375px;
+        width: 95%;
+        margin: 10px 0px 10px 0px;
+        float: left;
+        clear: both;
+    }
+
+} /*End 640px Media Query*/
