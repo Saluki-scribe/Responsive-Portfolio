@@ -102,13 +102,6 @@ header {
     border-top: none;
 }
 
-/*
-#side-content-line {
-    background-color: lightgray;
-    height: 1.5px;
-    margin-bottom: 20px;
-}*/
-
 #icon-align a {
     margin: 3px;
 }
@@ -420,19 +413,8 @@ footer {
         width: 980px;
     }
 
-    footer {
-        height: 80px;
-        border-top: 10px solid #722f37;
-        padding-top: 10px;
-    }
-
-    footer p {
-        text-align: center;
-    }
-
     .menu-item {
         float: left;
-        
     }
 
     #menu-item-push {
@@ -447,6 +429,16 @@ footer {
 
     .side-bar h3 {
         padding-top: 0px;
+    }
+
+    footer {
+        height: 80px;
+        border-top: 10px solid #722f37;
+        padding-top: 10px;
+    }
+
+    footer p {
+        text-align: center;
     }
 
 /*ABOUT Page Elements 980px*/
@@ -469,34 +461,34 @@ footer {
 
 /*PORTFOLIO Page Elements 980px*/
 
-.main-content-portfolio {
-    width: 400px;
-    height: auto;
-    padding-bottom: 50px;
-    margin: 30px 30px 30px 120px;
-}
+    .main-content-portfolio {
+        width: 400px;
+        height: auto;
+        padding-bottom: 50px;
+        margin: 30px 30px 30px 120px;
+    }
 
-.portfolio-container {
-    width: 400px;
-    height: auto;
-    margin-right: 0px;
-    margin-left: -5px;
-}
+    .portfolio-container {
+        width: 400px;
+        height: auto;
+        margin-right: 0px;
+        margin-left: -5px;
+    }
 
-.portfolio-container p {
-    margin-top: 170px;
-    padding: 15px 0;
-    width: 340px;
-}
+    .portfolio-container p {
+        margin-top: 170px;
+        padding: 15px 0;
+        width: 340px;
+    }
 
-#cyoa-pic, #hanged-pic, #rpg-pic, #trivia-pic, #horror-pic, #monster-pic  {
-    width: 85%;
-    height: 225px;
-    margin-bottom: 30px;
-    float: left;
-
+    #cyoa-pic, #hanged-pic, #rpg-pic, #trivia-pic, #horror-pic, #monster-pic  {
+        width: 85%;
+        height: 225px;
+        margin-bottom: 30px;
+        float: left;
+    }
 /*CONTACT Page Elements 980px*/
-}
+
 
 .contact-content {
     width: 400px;
@@ -520,6 +512,34 @@ footer {
     #title {
         margin-left: 20px;
     }
+
+    #menu-item-push {
+        width: 330px;
+    }
+
+    .side-bar {
+        height: 175px;
+        width: 90%;
+        margin: 30px 10px 30px 20px;
+    }
+
+    .side-bar h3 {
+        border-bottom: 1.5px solid darkgray;
+        padding-left: 0px;
+    }
+
+    footer {
+        height: 80px;
+        border-top: 10px solid #722f37;
+        padding-top: 10px;
+    }
+
+    #icon-align {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    /**/
 
 }
 @media screen and (max-width: 640px) {
