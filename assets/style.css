@@ -133,6 +133,7 @@ header {
     width: 220px;
     float: left;
     margin-right: 15px;
+    border-radius: 10px;
 }
 
 .about-content {
